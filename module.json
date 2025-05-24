@@ -1,0 +1,57 @@
+{
+  "id": "wing-table-map-helper",
+  "title": "WiNG Table Map Helper",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12",
+    "maximum": "12"
+  },
+  "authors": [
+    {
+      "name": "WiNG",
+      "discord": "wing_c",
+      "url": "https://github.com/WiNG-CoMM",
+      "flags": {
+        "github": "WiNG-CoMM",
+        "patreon": "wing_c",
+        "ko-fi": "wingc"
+      }
+    }
+  ],
+  "esmodules": ["scripts/wing-entry.js"],
+  "socket": true,
+  "relationships": {
+    "requires": [
+      {
+        "id": "socketlib",
+        "type": "module",
+        "manifest": "https://raw.githubusercontent.com/manuelVo/foundryvtt-socketlib/master/module.json",
+        "compatibility": {
+          "verified": "1.5.0"
+        }
+      },
+      {
+        "id": "table-map",
+        "type": "module",
+        "manifest": "https://raw.githubusercontent.com/Smashman/table-map-foundryvtt-module/refs/heads/master/package.json",
+        "compatibility": {
+          "verified": "2.2.1"
+        }
+      }
+    ]
+  },
+  "url": "https://github.com/WiNG-CoMM/WiNG-Table-Map-Helper",  
+  "manifest": "https://raw.githubusercontent.com/WiNG-CoMM/WiNG-Table-Map-Helper/refs/tags/v1.0.0/module.json",
+  "download": "https://github.com/WiNG-CoMM/WiNG-Table-Map-Helper/releases/download/v1.0.0/WiNG-Table-Map-Helper-1.0.0.zip",
+  "license": "GPL-3.0",
+  "keybindings": [
+    {
+      "name": "popout-all",
+      "hint": "Ctrl+Shift+P",
+      "editable": true,
+      "onPress": "WiNGTableMapHelper.popoutAll",
+      "description": "Popout both chat and combat tracker from Table Map instance"
+    }
+  ]
+}
