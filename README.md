@@ -18,6 +18,7 @@ Foundry V13 is not supported yet as neither Table Map or Popout! modules are com
 ## Features
 
 - Popout chat and combat tracker from Table Map instance
+- v1.1.0: Popout Ripper93's Levels Module from Table Map instance
 
 ## Installation
 
@@ -29,10 +30,14 @@ https://raw.githubusercontent.com/WiNG-CoMM/WiNG-Table-Map-Helper/refs/heads/mai
 
 ## Usage
 
-Right click over your desired player in the Players menu and select "Popout Chat (Table Map)", "Popout Combat (Table Map)" or "Popout All (Table Map)".
+Right click over your desired player in the Players menu and select "Popout Chat (Table Map)", "Popout Combat (Table Map)", "Popout Levels (Table Map)" or "Popout All (Table Map)". "Popout Levels (Table Map)" is only available if you have Ripper93's Levels Module installed and enabled.
+
+## Settings
+
+- v1.1.0: "Add popout option for Ripper93's Levels Module" setting. This setting will override the normal operation of Levels allowing you to display it's UI for a non-GM player. This was not how Levels was designed to work, but it can be of use if you are having visibility problems on TableMap with multiple tokens. You won't see this option if the Levels module is not active.
 
 ## Hotkey Support:
-- `Ctrl+Shift+P`: Popout both chat and combat tracker from Table Map instance
+- `Ctrl+Shift+P`: Popout both chat, combat tracker and Levels (if available) from Table Map instance
 
 You may change this hotkey in the Foundry VTT Configure Controls menu, under the WiNG Table Map Helper section.
 
