@@ -32,6 +32,8 @@ https://raw.githubusercontent.com/WiNG-CoMM/WiNG-Table-Map-Helper/refs/heads/mai
 
 Right click over your desired player in the Players menu and select "Popout Chat (Table Map)", "Popout Combat (Table Map)", "Popout Levels (Table Map)" or "Popout All (Table Map)". "Popout Levels (Table Map)" is only available if you have Ripper93's Levels Module installed and enabled.
 
+![menu](https://github.com/user-attachments/assets/8e1b05be-de8f-4bcc-af82-f01a36ea03e0)
+
 ## Settings
 
 - v1.1.0: "Add popout option for Ripper93's Levels Module" setting. This setting will override the normal operation of Levels allowing you to display it's UI for a non-GM player. This was not how Levels was designed to work, but it can be of use if you are having visibility problems on TableMap with multiple tokens. You won't see this option if the Levels module is not active.
